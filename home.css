@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+nav{
+    width: 300px;
+    height: 100vh;
+}
+nav > div{
+    display: flex;
+    align-items: center;
+    width: 260px;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+div > span#h1{
+    margin-left: 15px;
+}
+div > span#h2{
+    margin-left: 15px;
+}
+nav > p{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+nav > p > span{
+    padding: 5px;
+    
+}
+nav > p > a{
+    text-decoration: none;
+}
+nav > hr{
+    width: 240px;
+    margin-left: 10px;
+}
+div#corpo{
+    width: 100%;
+    height: 100vh;
+}
+header{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    width: 98%;
+    height: 62px;
+    margin: 12px;
+    
+}
+.navbar{
+    display: none;
+}
+#menu-icon{
+    margin-left: 5px;
+    cursor: pointer;
+    display: none;
+}
+header > input{
+    border-radius: 10px;
+    width: 65%;
+    height: 40px;
+    margin: 10px;
+    padding-left: 15px;
+}
+header > div#bola{
+    min-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+header > span{
+    margin-left: 10px;
+}
+header > hr{
+    width: 1px;
+    height: 30px;
+    margin-left: 10px;
+}
+header > span > a{
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    margin: 5px;
+}
+
+div#cadastro{
+    display: flex;
+    align-items: center;
+    width: 99%;
+    height: 30%;
+    margin: auto;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+div > div#cadastrototal{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    height: 100%;
+    margin: auto;
+}
+div > div#cadastrototal > span{
+    transform: translate(0, 50px);
+}
+div > div#cadastrototal > p{
+    width: 100%;
+    text-align: right;
+    margin-right: 10px;
+}
+div > div#cadastromes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    height: 100%;
+    margin: auto;
+}
+div > div#cadastromes > span{
+    transform: translate(0, 50px);
+}
+div > div#cadastromes > p{
+    width: 100%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+div > div#cadastropr{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    height: 100%;
+    margin: auto;
+}
+
+div > div#cadastropr> span{
+    transform: translate(0, 50px);
+}
+
+div > div#cadastropr > p{
+    width: 100%;
+    text-align: right;
+    margin-right: 10px;
+}
+main{
+    display: block;
+    width: 98%;
+    height: 49%;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 12px;
+}
+main > h1{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    line-height: 21.09px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+main > div{
+    width: 100%;
+    height: 200px;
+    margin-top: 25px;
+}
+table{
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+}
+tr.hover:hover{
+    transition: 0.5s;
+    opacity: 0.7;
+}
+th{
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+td{
+    width: 50px;
+    text-align: center;
+}
+

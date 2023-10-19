@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    display: flex;
+}
+nav{
+    width: 300px;
+    height: 100vh;
+}
+nav > div{
+    display: flex;
+    align-items: center;
+    width: 270px;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+div > span#h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48.41px;
+    margin-left: 15px;
+}
+div > span#h2{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21.06px;
+    margin-left: 15px;
+}
+nav > p{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding: 5px;
+}
+nav > p > span{
+    padding: 5px;
+}
+
+nav > p > a{
+    text-decoration: none;
+}
+nav > hr{
+    width: 240px;
+    margin-left: 10px;
+}
+div#corpo{
+    width: 100%;
+    height: 100vh;
+}
+header{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    width: 98%;
+    height: 62px;
+    margin: 12px;
+}
+.navbar{
+    display: none;
+}
+#menu-icon{
+    font-size: 25px;
+    margin-left: 5px;
+    cursor: pointer;
+    display: none;
+}
+header > input{
+    border-radius: 10px;
+    width: 65%;
+    height: 40px;
+    margin: 10px;
+    padding-left: 15px;
+}
+header > div#bola{
+    min-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+header > span{
+    font-size: 15px;
+    margin-left: 10px;
+}
+header > hr{
+    width: 1px;
+    height: 30px;
+    margin-left: 10px;
+}
+header > span > a{
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    margin: 5px;
+}
+main{
+    display: block;
+    width: 98%;
+    height: 310px;
+    padding: 5px;
+    margin: 12px;
+    border-radius: 5px;
+}
+main h1{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    line-height: 21.09px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+main hr{
+    width: 95%;
+    margin-left: 10px;
+}
+main hr#hr1{
+    margin-bottom: 5px;
+}
+main hr#hr2{
+    margin-top: 5px;
+}
+main a{
+    text-decoration: none;
+    color: black;
+}
+main span{
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 5px;
+}

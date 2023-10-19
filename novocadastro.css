@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    display: flex;
+}
+nav{
+    width: 300px;
+    height: 935px;
+}
+nav > div{
+    display: flex;
+    align-items: center;
+    width: 270px;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+div > span#h1{
+    margin-left: 15px;
+}
+div > span#h2{
+    margin-left: 15px;
+}
+nav > p{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    
+}
+nav > p > span{
+    padding: 5px;
+}
+
+nav > p > a{
+    text-decoration: none;
+}
+nav > hr{
+    width: 240px;
+    margin-left: 10px;
+}
+div#corpo{
+    width: 100%;
+    height: 100vh;
+}
+header{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    width: 98%;
+    height: 62px;
+    margin: 12px;
+}
+.navbar{
+    display: none;
+}
+#menu-icon{
+    font-size: 25px;
+    margin-left: 5px;
+    cursor: pointer;
+    display: none;
+}
+header > input{
+    border-radius: 10px;
+    width: 65%;
+    height: 40px;
+    margin: 10px;
+    padding-left: 15px;
+}
+header > div#bola{
+    min-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+header > span{
+    font-size: 15px;
+    margin-left: 10px;
+}
+header > hr{
+    width: 1px;
+    height: 30px;
+    margin-left: 10px;
+}
+header > span > a{
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    margin: 5px;
+}
+main{
+    width: 98%;
+    height: 850px;
+    padding: 5px;
+    margin: 12px;
+    border-radius: 5px;
+    position: relative;
+}
+main > div#cabmain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    width: 100%;
+    height: 25px;
+    padding-top: 5px;
+    margin: 0px;
+}
+
+main > div#cabmain > span#h1{
+    margin-left: 5px;
+}
+main > div#cabmain > div{
+    display: flex;
+    align-items: center;   
+}
+main > div#cabmain > div > div#bolinha{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+main > div#cabmain > div >span#ativo{
+    padding: 5px;
+}
+main h1{
+    padding: 5px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+main hr{
+    width: 97%;
+    margin-left: 10px;
+}
+main label{
+    margin-left: 8px;
+}
+main > div#form > form >div#inome{
+    padding: 5px;
+}
+main > div#form > form >div#inome > input{
+    border-radius: 5px;
+    width: 98.5%;
+    height: 30px;
+    padding-left: 10px;
+}
+
+main > div#form > form > div#iidade{
+    padding: 5px;
+}
+main > div#form > form >div#iidade>input#idade{
+    border-radius: 5px;
+    width: 20%px;
+    height: 30px;
+    padding-left: 10px;
+}
+main > div#form > form > div#iemail{
+    padding: 5px;
+}
+main > div#form > form >div#iemail > input#e-mail{
+    border-radius: 5px;
+    width: 98.5%;
+    height: 30px;
+    padding-left: 10px;
+}
+main > div#form > form >div#iendereco{
+    padding: 5px;
+}
+main > div#form > form >div#iendereco > input{
+    border-radius: 5px;
+    width: 98.5%;
+    height: 30px;
+    padding-left: 10px;
+}
+main > div#form > form >div#outinfo{
+    padding: 5px;
+}
+main > div#form > form >div#outinfo > input{
+    border-radius: 5px;
+    width: 98.5%;
+    height: 30px;
+    padding-left: 10px;
+}
+textarea#interesse{
+    border-radius: 5px;
+    width: 98%;
+    height: 100px;
+    margin: 10px;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+textarea#curiosidade{
+    border-radius: 5px;
+    width: 98%;
+    height: 100px;
+    margin: 10px;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+textarea#valores{
+    border-radius: 5px;
+    width: 98%;
+    height: 100px;
+    margin: 10px;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+main > div > form > a > input[type=submit]{
+    display: block;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    width: 17%;
+    height: 34.5px;
+    cursor: pointer;
+}
+main > div > form > a{
+    text-decoration: none;
+}
