@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
 }
 body{
     display: flex;
@@ -25,15 +24,9 @@ nav > div{
 }
 
 div > span#h1{
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 48.41px;
     margin-left: 15px;
 }
 div > span#h2{
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 21.06px;
     margin-left: 15px;
 }
 nav > p{
@@ -108,20 +101,16 @@ main{
     margin: 12px;
     border-radius: 5px;
 }
-main h1{
-    font-size: 18px;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
-    line-height: 21.09px;
+    span#h1{
     margin-left: 5px;
     margin-top: 10px;
-    margin-bottom: 12px;
 }
 main hr{
     width: 95%;
     margin-left: 10px;
 }
 main hr#hr1{
+    margin-top: 8px;
     margin-bottom: 5px;
 }
 main hr#hr2{

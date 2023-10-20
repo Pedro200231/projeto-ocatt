@@ -44,7 +44,7 @@ header > span{
 }
 /*-----------------------------------------------------------------------*/
 /*MAIN*/
-main > div > span#h1{
+main span#h1{
     font-size: 20px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
