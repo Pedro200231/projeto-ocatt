@@ -163,13 +163,8 @@ main{
     border-radius: 5px;
     margin: 12px;
 }
-main > h1{
-    font-size: 18px;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
-    line-height: 21.09px;
+main > span#h1{
     margin-left: 5px;
-    margin-top: 10px;
 }
 main > div{
     width: 100%;
