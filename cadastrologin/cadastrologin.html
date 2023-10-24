@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Cadastro</title>
+    <link rel="stylesheet" href="cadastrologin.css">
+</head>
+<body>
+    <div class="content">  
+        <div id="cabecalho">
+            <h1>OC</h1>
+            <p>Operação Curiosidade</p>
+        </div>
+        <form action="../login/index.html" method="get">
+            <div>
+                <input type="text" class="inputs" id="nome" placeholder="Digite seu nome">
+                <span class="span-required">Nome deve ter no mínimo 3 caracteres</span>
+            </div>
+            <div>
+                <input type="email" class="inputs" id="email" placeholder="Digite seu email">
+                <span class="span-required">Digite um email válido.</span>
+            </div>
+            <div>
+                <input type="password" class="inputs" id="senha" placeholder="Senha">
+                <span class="span-required">Digite uma senha com no mínimo 8 caracteres</span>
+            </div>
+            <div>
+                <input type="password" class="inputs" id="senha2" placeholder="Repita sua senha">
+                <span class="span-required">Senhas devem ser compatívels</span>
+            </div>
+            <div><textarea name="descricao" id="descricao" cols="25" rows="10" placeholder="Fale um pouco sobre você" class="inputs"></textarea></div>
+            <p>Sexo:</p>
+            <div class="box-select">
+                <div>
+                    <div>
+                        <input type="radio" name="sexo" id="m" value="m">
+                        <label for="m">Masculino</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="sexo" id="f" value="f">
+                        <label for="f">Feminino</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="sexo" id="o" value="o">
+                        <label for="o">Outros</label>
+                    </div>
+                </div>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>

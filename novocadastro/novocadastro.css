@@ -214,7 +214,7 @@ textarea#valores{
     padding-top: 10px;
     margin-bottom: 10px;
 }
-main > div > form > a > input[type=submit]{
+main > div > form > input[type=submit]{
     display: block;
     text-align: center;
     margin: auto;
@@ -223,6 +223,4 @@ main > div > form > a > input[type=submit]{
     height: 34.5px;
     cursor: pointer;
 }
-main > div > form > a{
-    text-decoration: none;
-}
+

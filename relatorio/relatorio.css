@@ -15,7 +15,7 @@ nav{
 nav > div{
     display: flex;
     align-items: center;
-    width: 270px;
+    width: 260px;
     height: 50px;
     margin: auto;
     margin-top: 10px;
@@ -24,6 +24,7 @@ nav > div{
 }
 
 div > span#h1{
+    margin: 0px;
     margin-left: 15px;
 }
 div > span#h2{
@@ -32,13 +33,12 @@ div > span#h2{
 nav > p{
     display: flex;
     align-items: center;
-    font-size: 15px;
     padding: 5px;
 }
 nav > p > span{
     padding: 5px;
+    
 }
-
 nav > p > a{
     text-decoration: none;
 }
@@ -57,12 +57,12 @@ header{
     width: 98%;
     height: 62px;
     margin: 12px;
+    
 }
 .navbar{
     display: none;
 }
 #menu-icon{
-    font-size: 25px;
     margin-left: 5px;
     cursor: pointer;
     display: none;
@@ -80,7 +80,6 @@ header > div#bola{
     border-radius: 50%;
 }
 header > span{
-    font-size: 15px;
     margin-left: 10px;
 }
 header > hr{
